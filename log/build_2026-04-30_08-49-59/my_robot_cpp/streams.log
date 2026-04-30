@@ -1,0 +1,58 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/my_robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/my_robot_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_cpp
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.392s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.415s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.452s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.483s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.490s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.503s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.508s] -- Looking for pthread.h
+[0.554s] -- Looking for pthread.h - found
+[0.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.605s] -- Found Threads: TRUE  
+[0.627s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.671s] -- Added test 'lint_cmake' to check CMake code style
+[0.675s] -- Added test 'xmllint' to check XML markup files
+[0.679s] -- Configuring done
+[0.690s] -- Generating done
+[0.698s] -- Build files have been written to: /root/ros2_ws/build/my_robot_cpp
+[0.699s] Invoked command in '/root/ros2_ws/build/my_robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/my_robot_cpp -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_cpp
+[0.700s] Invoking command in '/root/ros2_ws/build/my_robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_cpp -- -j8 -l8
+[0.717s] Invoked command in '/root/ros2_ws/build/my_robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_cpp -- -j8 -l8
+[0.722s] Invoking command in '/root/ros2_ws/build/my_robot_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_cpp
+[0.725s] -- Install configuration: ""
+[0.726s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/ament_index/resource_index/package_run_dependencies/my_robot_cpp
+[0.728s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/ament_index/resource_index/parent_prefix_path/my_robot_cpp
+[0.729s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.sh
+[0.730s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/environment/ament_prefix_path.dsv
+[0.731s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/environment/path.sh
+[0.732s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/environment/path.dsv
+[0.733s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/local_setup.bash
+[0.734s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/local_setup.sh
+[0.735s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/local_setup.zsh
+[0.736s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/local_setup.dsv
+[0.737s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/package.dsv
+[0.738s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/ament_index/resource_index/packages/my_robot_cpp
+[0.739s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig.cmake
+[0.740s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/cmake/my_robot_cppConfig-version.cmake
+[0.741s] -- Installing: /root/ros2_ws/install/my_robot_cpp/share/my_robot_cpp/package.xml
+[0.743s] Invoked command in '/root/ros2_ws/build/my_robot_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_cpp
