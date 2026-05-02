@@ -1,0 +1,3 @@
+[console_scripts]
+path_planner = my_robot_py.path_planner:main
+
